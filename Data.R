@@ -6,6 +6,6 @@ library(readr)
 library(corrplot)
 theme_set(theme_pubr())
 
-sleephealthlifestyle <- read_delim("https://raw.githubusercontent.com/MorenoCLR/mclr-dataset/main/sleephealthlifestyle.csv", 
+sleephealthlifestyle <- read_delim("https://raw.githubusercontent.com/MorenoCLR/mclr-sleephealth-dataset/main/sleephealthlifestyle.csv", 
                                    delim = ";", escape_double = FALSE, trim_ws = TRUE)
 View(sleephealthlifestyle)
